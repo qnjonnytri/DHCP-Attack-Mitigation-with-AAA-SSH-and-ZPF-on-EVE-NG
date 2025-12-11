@@ -1,5 +1,5 @@
 # DHCP-Attack-Mitigation-with-AAA-SSH-and-ZPF-on-EVE-NG
-DHCP SECURITY LAB ON EVE-NG
+
 **1. OVERVIEW**
 This project focuses on building a complete security laboratory environment on EVE-NG to study DHCP-related attacks and defensive mechanisms.
 The lab simulates common Layer 2 attacks such as DHCP Starvation and Rogue DHCP Server, and evaluates the effectiveness of enterprise-grade security features including DHCP Snooping, AAA, SSH hardening, and Zone-Based Policy Firewall (ZPF).
