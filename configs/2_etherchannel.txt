@@ -1,0 +1,22 @@
+##Cách 1
+##Core-switch 1-2
+interface range e0/2 – 3
+switchport trunk encapsulation dot1q
+switchport mode trunk
+##Core-switch 1-2
+interface range e0/2 – 3
+channel-group 1 mode on
+
+##Cách 2
+##Core-switch 1-2
+Interface range e0/2 – 3
+Channel-group 1 mode on
+
+##Core-switch 1-2
+Interface port-channel 1
+Switchport trunk encapsulation dot1q
+Switchport mode trunk
+
+##Lệnh kiểm tra
+show interface trunk
+show interfaces port-channel
