@@ -4,7 +4,7 @@
 This project focuses on building a complete security laboratory environment on EVE-NG to study DHCP-related attacks and defensive mechanisms.
 The lab simulates common Layer 2 attacks such as DHCP Starvation and Rogue DHCP Server, and evaluates the effectiveness of enterprise-grade security features including DHCP Snooping, AAA, SSH hardening, and Zone-Based Policy Firewall (ZPF).
 The repository includes network diagrams, router/switch configurations, attack scripts, packet captures, and full experiment reports.
-
+![Lab Topology](diagrams/lab_topology.png)
 **2. OBJECTIVES**
 Build a security-focused testbed simulating a Small to Medium Business (SMB) network using EVE-NG.
 Implement core security technologies including DHCP Snooping, SSH, AAA authentication, and ZPF.
