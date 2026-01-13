@@ -6,7 +6,9 @@ The lab simulates common Layer 2 attacks such as DHCP Starvation and Rogue DHCP 
 The repository includes network diagrams, router/switch configurations, attack scripts, packet captures, and full experiment reports.
 
 
-<img src="diagrams/lab_topology.png" alt="Lab Topology" width="600"/>
+<img src="diagrams/topology.png" alt="Lab Topology" width="600"/>
+*Figure: Lab topology showing DHCP attack simulation setup*
+
 
 
 **2. OBJECTIVES**
