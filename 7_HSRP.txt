@@ -1,0 +1,47 @@
+#### Core-switch1(ưu tiên)
+Enable
+Config terminal
+interface Vlan 10
+standby 1 ip 10.10.10.1
+standby 1 priority 20 
+standby 1 preempt
+exit
+interface Vlan 20
+standby 1 ip 10.10.20.1
+standby 1 priority 20 
+standby 1 preempt
+exit
+interface Vlan 30
+standby 1 ip 10.10.30.1
+standby 1 priority 20 
+standby 1 preempt
+exit
+interface Vlan 99
+standby 1 ip 10.10.99.1
+standby 1 priority 20 
+standby 1 preempt
+exit
+#### Core-switch2 (thay thế)
+Enable
+Config terminal
+interface Vlan 10
+standby 1 ip 10.10.10.1
+standby 1 priority 10 
+standby 1 preempt
+exit
+interface Vlan 20
+standby 1 ip 10.10.20.1
+standby 1 priority 10
+standby 1 preempt
+exit
+interface Vlan 30
+standby 1 ip 10.10.30.1
+standby 1 priority 10
+standby 1 preempt
+exit
+interface Vlan 99
+standby 1 ip 10.10.99.1
+standby 1 priority 10
+standby 1 preempt
+
+#### Show standby brief

@@ -1,0 +1,22 @@
+####Core-switch1
+enable
+config terminal
+spanning-tree vlan 10 priority 20480
+spanning-tree vlan 20 priority 20480
+####Switch 3
+config terminal
+interface e0/3
+spanning-tree vlan 10 cost 50 
+spanning-tree vlan 20 cost 50 
+####Core-switch2
+enable 
+config terminal
+spanning-tree vlan 30 priority 20480
+spanning-tree vlan 99 priority 20480
+####Switch 4
+config terminal 
+interface e0/3
+spanning-tree vlan 30 cost 50 ####cao hơn cost của port còn lại 
+spanning-tree vlan 99 cost 50 ####cao hơn cost của port còn lại
+####Lệnh kiểm tra
+####show spanning-tree vlan 20
